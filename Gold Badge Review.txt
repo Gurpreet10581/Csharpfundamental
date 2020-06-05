@@ -1,0 +1,23 @@
+
+Gold Badge Review 
+
+Challenge 1 from Assignments- Komodo Cafe
+
+1. Read it to find out about type of customer demand and class properties 
+	a. who is this program for ?-this is for manager 
+	b. what is this program for- the purpose of it ?- it is for manager to use a digital menu(create menu items/delete)
+	c. what method will the program need to function?- this is were you make Repository which is also created in the Library
+		i. what methods do i need to create this program- add, delete, return list of menu methods.
+			Ex->add method- what do i need from the user- public void name(what is needed from user){method body}
+				void can be changed whoever the develpor wants
+	d. you will need to create below for this project
+		i. create class with whatever you class name may be.
+		ii. what are properties for my class.
+	e.extenti
+	e. Create a test class for Repository methods- don't have test constructers or object just test the methods.
+		i. it should have AAA- Arrange, Act, & Assert
+			a. Arrange- what does my method need to function correctly 
+			   Ex-> Create menu item objects, add them to menuitem list
+			b.Act- call the method we are testing and set it to the variabe 
+			  Ex
+		ii. make it same name as methods from Repo+_Test

@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _11_StreamingContent_UIRefactor
+{
+    public interface IConsole
+    {// making methods for interface
+        void WriteLine(string s);
+        void WriteLine(object o);
+
+        void Write(string s);
+        void Clear();
+
+        string ReadLine();// this is taking user input
+        ConsoleKeyInfo ReadKey();
+
+    }
+}
